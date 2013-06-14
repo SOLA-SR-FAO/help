@@ -39,21 +39,49 @@
     <mapID target="unassign_an_application" url="howtotopics/unassign_an_application.html" />
     <mapID target="add_document" url="howtotopics/add_document.html" />
     <mapID target="attach_digital_document" url="howtotopics/attach_digital_document.html" />
+    <!--<mapID target="add_upd_attached_document" url="howtotopics/add_upd_attached_document.html" />-->
+    <!--<mapID target="link_document" url="howtotopics/link_document.html" />-->
+    <!--<mapID target="register_power_attorney" url="howtotopics/register_power_attorney.html" />-->
+    <!--<mapID target="cancel_power_attorney" url="howtotopics/cancel_power_attorney.html" />-->
+    <!--<mapID target="register_standard_document" url="howtotopics/register_standard_document.html" />-->
+    <!--<mapID target="withdraw_standard_document" url="howtotopics/withdraw_standard_document.html" />-->
     <mapID target="calculate_fees" url="howtotopics/calculate_fees.html" />
     <mapID target="verify_property_details" url="howtotopics/verify_property_details.html" />
     <mapID target="cancel_withdraw_lapse_application" url="howtotopics/cancel_withdraw_lapse_application.html" />
     <mapID target="add_location" url="howtotopics/add_location.html" />
+    <!--<mapID target="add_agent_bank" url="howtotopics/add_agent_bank.html" />-->
+    <!--<mapID target="perform_title_search" url="howtotopics/perform_title_search.html" />-->
+    <!--<mapID target="create_cadastre_print" url="howtotopics/create_cadastre_print.html" />-->
+    <!--<mapID target="print_document_copy" url="howtotopics/print_document_copy.html" />-->
+    <!--<mapID target="view_lodgement_report" url="howtotopics/view_lodgement_report.html" />-->
     <mapID target="add_ownership_details" url="howtotopics/add_ownership_details.html" />
     <mapID target="add_mortgage" url="howtotopics/add_mortgage.html" />
     <mapID target="add_simple_right" url="howtotopics/simpleRight.html" />
+    
+<!--    <mapID target="land_registration_application" url="howtotopics/land_registration_application.html" />
+    <mapID target="change_ownership" url="howtotopics/change_ownership.html" />
+    <mapID target="change_estate" url="howtotopics/change_estate.html" />
+    <mapID target="manage_titles" url="howtotopics/manage_titles.html" />
+    <mapID target="manage_mortgage" url="howtotopics/manage_mortgage.html" />
+    <mapID target="manage_lease" url="howtotopics/manage_lease.html" />
+    <mapID target="manage_caveat" url="howtotopics/manage_caveat.html" />
+    <mapID target="manage_easements" url="howtotopics/manage_easements.html" />
+    <mapID target="manage_general" url="howtotopics/manage_general.html" />
+    <mapID target="cancel_rrr" url="howtotopics/cancel_rrr.html" />
+    <mapID target="convert_paper_title" url="howtotopics/convert_paper_title.html" />
+    <mapID target="property_wizard" url="howtotopics/property_wizard.html" />-->
     <mapID target="perform_cadastre_change" url="howtotopics/perform_cadastre_change.html" />
     <mapID target="perform_redefine_cadastre" url="howtotopics/perform_redefine_cadastre.html" />
     <mapID target="change_boundary" url="howtotopics/change_boundary.html" />
+    <!--    <mapID target="record_plan" url="howtotopics/record_plan.html" />-->
+    <!--    <mapID target="add_plan_image_digitizing" url="howtotopics/add_plan_image_digitizing.html" />-->
+    <!--    <mapID target="import_survey_data" url="howtotopics/import_survey_data.html" />-->
     <mapID target="propertySearch" url="howtotopics/propertySearch.html" />
     <mapID target="person" url="howtotopics/person.html" />
     <mapID target="personSearch" url="howtotopics/personSearch.html" />
     <mapID target="documentSearch" url="howtotopics/documentSearch.html" />
     <mapID target="transactionedDocument" url="howtotopics/transactionedDocument.html" />
+    <!--<mapID target="userProfile" url="howtotopics/userProfile.html" />-->
     <mapID target="1_blk_importspatialpanel" url="howtotopics/1_blk_importspatialpanel.html" />
     <mapID target="1_blk_importsourcepanel" url="howtotopics/1_blk_importsourcepanel.html" />
     <mapID target="sys_reg_rights_claim" url="howtotopics/sys_reg_rights_claim.html" />

@@ -21,30 +21,67 @@
             <tocitem image="topic" target="cadastre_change" text="Cadastre Change"/>
             <tocitem image="topic" target="redefine_cadastre" text="Redefine Cadastre"/>
             <tocitem image="topic" target="propertySearch" text="Property search"/>
-            <tocitem image="topic" target="personSearch" text="Person search"/> 
-            <tocitem image="topic" target="person" text="Person details"/> 
+            <tocitem image="topic" target="personSearch" text="Party search"/> 
+            <tocitem image="topic" target="person" text="Party details"/> 
             <tocitem image="topic" target="documentSearch" text="Document search"/> 
             <tocitem image="topic" target="transactionedDocument" text="Document registration"/> 
+<!--            <tocitem image="topic" target="userProfile" text="User Profile"/> -->
         </tocitem>	
         <tocitem image="category" text="How to">
+          <tocitem image="category" text="General">
             <tocitem image="topic" target="change_language" text="Change Language"/>
             <tocitem image="topic" target="lodge_new_application" text="Lodge a New Application"/>
             <tocitem image="topic" target="edit_an_application" text="Edit an Application"/>
             <tocitem image="topic" target="assign_an_application" text="Assign an Application"/>
             <tocitem image="topic" target="unassign_an_application" text="Un-assign an Application"/>
-            <tocitem image="topic" target="add_document" text="Add Document"/>	
-            <tocitem image="topic" target="attach_digital_document" text="Attach a Digital Document"/>	
             <tocitem image="topic" target="calculate_fees" text="Calculate Fees"/>
             <tocitem image="topic" target="verify_property_details" text="Verify Property Details"/>
             <tocitem image="topic" target="cancel_withdraw_lapse_application" text="Cancel Withdraw Lapse an Application"/>
             <tocitem image="topic" target="add_location" text="Add Location for Application"/>
+<!--            <tocitem image="topic" target="add_agent_bank" text="Add Edit Agents and Banks"/>-->
+<!--            <tocitem image="topic" target="perform_title_search" text="Perform Title Search"/>-->
+<!--            <tocitem image="topic" target="create_cadastre_print" text="Create Cadastre Print"/>-->
+<!--            <tocitem image="topic" target="print_document_copy" text="Print Document Copy"/>-->
+<!--            <tocitem image="topic" target="view_lodgement_report" text="View Lodgement Report"/>-->
+           </tocitem>
+           <tocitem image="category" text="Documents">
+            <tocitem image="topic" target="add_document" text="Add Document"/>	
+            <tocitem image="topic" target="attach_digital_document" text="Attach a Digital Document"/>	
+<!--            <tocitem image="topic" target="add_upd_attached_document" text="Add or Update a File Attachment to an Existing Document"/>	-->
+<!--            <tocitem image="topic" target="link_document" text="Link to Power of Attorney and Standard Documents"/>	-->
+<!--            <tocitem image="topic" target="register_power_attorney" text="Register Power of Attorney"/>	-->
+<!--            <tocitem image="topic" target="cancel_power_attorney" text="Cancel Power of Attorney"/>	-->
+<!--            <tocitem image="topic" target="register_standard_document" text="Register Standard Documents"/>	-->
+<!--            <tocitem image="topic" target="withdraw_standard_document" text="Withdraw Standard Documents"/>	-->
+           </tocitem>
+           <tocitem image="category" text="Land Registration">
             <tocitem image="topic" target="add_ownership_details" text="Add Ownership Details to a Property"/>
             <tocitem image="topic" target="share" text="Create share"/>
             <tocitem image="topic" target="add_simple_right" text="Create generic right"/>
             <tocitem image="topic" target="add_mortgage" text="Add Mortgage Details to a Property"/>
+<!--        <tocitem image="topic" target="land_registration_application" text="Lodge and Process a Land Registration Application"/>
+            <tocitem image="topic" target="change_ownership" text="Record and Change Ownership"/>
+            <tocitem image="topic" target="change_estate" text="Change the Type of Estate"/>
+            <tocitem image="topic" target="manage_titles" text="Cancel Titles and Create New Titles"/>
+            <tocitem image="topic" target="manage_mortgage" text="Register, Vary and Discharge Mortgage"/>
+            <tocitem image="topic" target="manage_lease" text="Register, Vary and Terminate Lease"/>
+            <tocitem image="topic" target="manage_caveat" text="Register, Vary and Withdraw Caveat"/>
+            <tocitem image="topic" target="manage_easements" text="Register, Vary and Cancel Easements"/>
+            <tocitem image="topic" target="manage_general" text="Register or Vary General Rights or Restrictions"/>
+            <tocitem image="topic" target="cancel_rrr" text="Cancel a Right or Restriction"/>
+            <tocitem image="topic" target="convert_paper_title" text="Convert a Paper Title"/>
+            <tocitem image="topic" target="property_wizard" text="Use the Add Parent Property Wizard"/>
+-->
+	   </tocitem>
+           <tocitem image="category" text="Survey">
             <tocitem image="topic" target="perform_cadastre_change" text="Perform a Cadastre Change"/> 
+<!--            <tocitem image="topic" target="record_plan" text="Record a Plan"/> -->
             <tocitem image="topic" target="perform_redefine_cadastre" text="Perform a Redefinition of Cadastre"/> 
             <tocitem image="topic" target="change_boundary" text="Change Boundary"/>
+<!--            <tocitem image="topic" target="add_plan_image_digitizing" text="Add a Plan Image for Digitizing"/>-->
+<!--            <tocitem image="topic" target="import_survey_data" text="Import Survey Data File"/>-->
+           </tocitem>
+           <tocitem image="category" text="Systematic Registration">
             <tocitem image="topic" target="sys_reg_rights_claim" text="Systematic Registration Rights Claim"/>
             <tocitem image="topic" target="sys_reg_record_objections" text="Systematic Registration Record Objections"/>
             <tocitem image="topic" target="sys_reg_record_resolutions" text="Systematic Registration Record Dispute Resolution"/>
@@ -52,6 +89,7 @@
             <tocitem image="topic" target="sys_reg_public_disp_plots" text="Prepare Public Display Plots"/>
             <tocitem image="topic" target="sys_reg_certificates" text="Prepare Registration Certificates"/>
             <tocitem image="topic" target="sys_reg_status_report" text="Prepare Status Work Reports"/>
+           </tocitem>
         </tocitem>
 
         <tocitem image="topic" target="issues" text="Known Issues"/>			
