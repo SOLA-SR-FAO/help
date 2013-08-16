@@ -30,6 +30,7 @@
     <mapID target="redefine_cadastre" url="howtotopics/redefine_cadastre.html" />
     <mapID target="linkProperty" url="howtotopics/linkProperty.html" />
     <mapID target="share" url="howtotopics/share.html" />
+    <mapID target="dispute_panel_form" url="howtotopics/dispute_panel_form.html" />
     
 <!--Reference to the how tos-->
     <mapID target="change_language" url="howtotopics/change_language.html" />

@@ -25,6 +25,8 @@
             <tocitem image="topic" target="person" text="Party details"/> 
             <tocitem image="topic" target="documentSearch" text="Document search"/> 
             <tocitem image="topic" target="transactionedDocument" text="Document registration"/> 
+            <tocitem image="topic" target="dispute_panel_form" text="Dispute Panel Form"/>  
+            
 <!--            <tocitem image="topic" target="userProfile" text="User Profile"/> -->
         </tocitem>	
         <tocitem image="category" text="How to">
