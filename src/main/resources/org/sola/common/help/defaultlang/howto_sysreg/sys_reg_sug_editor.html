@@ -36,53 +36,69 @@
   </head>
   <body style=" margin-left: 24px; width: 1040px;">
     <h1>
-       Generate Public Display Plots
+       Define Work Units
     </h1>
     <p>
-       In this step maps required for public display are produced. Parcels are annotated with
-      Parcel Number. The Map window will zoom to the extent of parcels within the specified
-      systematic registration block. Parcels in adjacent blocks will only be shown without any
-      (parcel number) annotation
+       &nbsp;
+    </p>
+    <p class="msonormal">
+       It is assumed that local government area (LGA) and ward boundaries have been loaded into
+      SOLA as part of the SOLA setup for a SR project office and they are viewable as layers in the
+      SOLA map. If that is not the case, a similar workflow should be followed as is described
+      below before you define SR Daily Work Units and Public Display Areas.
+    </p>
+    <p class="msonormal">
+       &nbsp;Likewise it is assumed that satellite imagery for the SR area has been made available
+      to SOLA as another map layer through the publishing of the satellite imagery through a
+      Geoserver setup on one of the SR desktop computers
+    </p>
+    <p class="msonormal">
+       &nbsp;
     </p>
     <h2>
-       Steps
+       Create or Edit Daily Work Unit and Public Display area
     </h2>
+    <h3>
+       Steps
+    </h3>
     <ol>
       <li>
-        From the Dashboard form click on the Systematic Registration – Public Display -Map menu
-        option
+        Select the Spatial Unit Group Editor menu option from the main Systematic Registration menu
       </li>
       <li>
-        Click on the Find tab, select Search by Public Display Area and enter the Area identifier.
+        Zoom in to the area to be defined as a SR Daily work Unit.
       </li>
       <li>
-        Double click on the required area from the results list below
+        Select Daily Work Unit as the unit type from the dropdown list in the toolbar panel near
+        the top of the screen
       </li>
       <li>
-        The map window will display centered on&nbsp;&nbsp;the selected one.
+        Click on the <img src="../images/icons/polygon.png">&nbsp;toolbar icon to the right of unit
+        type drop down list and trace the outline of the section boundary with left mouse clicks
+        and a double click to close on the starting point. The new unit will be appear with a blue
+        border .
       </li>
       <li>
-        Click on the Clear Map button to remove the yellow shading.
+        Click on the <img src="../images/icons/save.png">&nbsp;toolbar icon. The unit will
+        disappear but can be returned by use of the <img src="../images/icons/pan.png"> toolbar
+        icon. The new unit will now appear with a yellow border.
       </li>
       <li>
-        Click on the Layers tab and make visible the Orthophoto layer and the Public Display Area
-        layer
+        If you need to make changes to existing Daily Work Units, use the <img src=
+        "../images/icons/spatial-unit-group-select.png" width="16"> &nbsp;toolbar icon and select
+        (with a very positive left mouse click) the section to be modified. Once you activated the
+        edit mode, each node will appear as a red rectangle.
       </li>
       <li>
-        All systematic registration parcels within the Public Display Area will be displayed
+        Click on the <img src="../images/icons/polygon.png"> &nbsp; toolbar icon and move the
+        activated nodes to make the required modifications.
       </li>
       <li>
-        Click on the Public Display tab.
+        Save <img src="../images/icons/save.png"> &nbsp;and use the scroll function to view the
+        modified unit .
       </li>
       <li>
-        In the Public Display screen that displays enter the Area Name and systematic registration
-        district name in the Area description field.
-      </li>
-      <li>
-        Select the correct layout (usually Public Display – A0) and round the scale accordingly.
-      </li>
-      <li>
-        Click on the Print button
+        Click on the Print button if you need to have a printed
       </li>
       <li>
         A pdf image of the map will be generated, based on what levels were displayed and the scale
@@ -99,7 +115,57 @@
       </li>
     </ol>
     <p>
-      <br>
+       &nbsp;
+    </p>
+    <p>
+       &nbsp;
+    </p>
+    <h2>
+       Merge spatial units of a lower level into one higher level unit
+    </h2>
+    <p>
+       This feature is intended to allow the user to select several units of a lower level (e.g
+      daily work unit) and create a single unit of the higher level(e.g. Public Display Area out of
+      selected working units)
+    </p>
+    <h3>
+       Steps
+    </h3>
+    <ol>
+      <li>
+        Select higher level unit as the unit type (e.g. Public display area) from the dropdown list
+        in the toolbar panel near the top of the screen
+      </li>
+      <li>
+        Click the <img src=
+        "../images/icons/SpatialUnitGroupSelectSubHierarchy.png">&nbsp;&nbsp;tool and select the
+        spatial units from a lower hierarchy level (e.g. Daily Work Unit). It means if Public
+        Display Area is active, you can select spatial units from Daily Work Unit
+      </li>
+      <li>
+        Click the <img src="../images/icons/spatial-unit-group-merge.png">&nbsp;Merge tool: this
+        merges all spatial units that are in the editing layer. In order to get a valid polygon, it
+        is possible that next to the spatial units selected from the hierarchy below, to add also
+        extra polygons that can fill the gaps
+      </li>
+      <li>
+        When clicking merge, it is checked if the result geometry is a polygon. If&nbsp; it is not
+        it will show a message to the user in order to go to hierarchy level below and&nbsp; change
+        the polygons accordingly
+      </li>
+    </ol>
+    <p>
+       &nbsp;
+    </p>
+    <p>
+       &nbsp;
+    </p>
+    <p>
+       By means of &nbsp;<img src="../images/icons/reset.png">&nbsp;&nbsp;reset&nbsp;icon you can
+      always Reset all editing in the client not sent to the server yet.<br>
+    </p>
+    <p>
+       &nbsp;
     </p>
     <p>
        <b>Also See</b>

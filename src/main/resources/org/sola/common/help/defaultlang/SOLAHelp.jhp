@@ -41,6 +41,7 @@
 				<file title="add_location.html"/>
 				<file title="assign_application.html"/>
 				<file title="cadastre_print.html"/>
+				<file title="calculate_fees.html"/>
 				<file title="cancel_application.html"/>
 				<file title="change_language.html"/>
 				<file title="change_password.html"/>
@@ -49,6 +50,7 @@
 				<file title="lodge_new_application.html"/>
 				<file title="login.html"/>
 				<file title="search_help.html"/>
+				<file title="secure_data_record.html"/>
 				<file title="title_search.html"/>
 				<file title="unassign_application.html"/>
 				<file title="uninstall.html"/>
@@ -77,6 +79,9 @@
 				<file title="mortgage_record.html"/>
 				<file title="ownership_record.html"/>
 				<file title="ownership_transfer.html"/>
+				<file title="parent_prop_wizard.html"/>
+				<file title="registry_correction.html"/>
+				<file title="registry_correction_cancel.html"/>
 			</directory>
 			<directory title="howto_survey">
 				<file title="digitize_plan_image.html"/>
@@ -87,6 +92,7 @@
 			<directory title="howto_sysreg">
 				<file title="sys_reg_certificates.html"/>
 				<file title="sys_reg_gender_report.html"/>
+				<file title="sys_reg_pda_details.html"/>
 				<file title="sys_reg_public_disp_listing.html"/>
 				<file title="sys_reg_public_disp_plots.html"/>
 				<file title="sys_reg_record_objections.html"/>
@@ -94,6 +100,8 @@
 				<file title="sys_reg_rights_claim.html"/>
 				<file title="sys_reg_signing_listing.html"/>
 				<file title="sys_reg_status_report.html"/>
+				<file title="sys_reg_su_editor.html"/>
+				<file title="sys_reg_sug_editor.html"/>
 			</directory>
 			<directory title="images">
 				<directory title="icons">
@@ -121,6 +129,7 @@
 					<file title="car-plus.png"/>
 					<file title="change-node.png"/>
 					<file title="change-share.png"/>
+					<file title="confirm-close.png"/>
 					<file title="confirm.png"/>
 					<file title="create.png"/>
 					<file title="delete_icon.gif"/>
@@ -128,6 +137,7 @@
 					<file title="document--pencil.png"/>
 					<file title="document-link.png"/>
 					<file title="document-remove.png"/>
+					<file title="document-task.png"/>
 					<file title="document-view.png"/>
 					<file title="down.png"/>
 					<file title="draw.png"/>
@@ -174,6 +184,7 @@
 					<file title="remove-node.png"/>
 					<file title="remove.png"/>
 					<file title="requisition.png"/>
+					<file title="reset.png"/>
 					<file title="resubmit.png"/>
 					<file title="revert.png"/>
 					<file title="right.png"/>
@@ -182,6 +193,10 @@
 					<file title="search.png"/>
 					<file title="select-parcel.png"/>
 					<file title="selection.png"/>
+					<file title="spatial-unit-group-merge.png"/>
+					<file title="spatial-unit-group-open.png"/>
+					<file title="spatial-unit-group-select.png"/>
+					<file title="SpatialUnitGroupSelectSubHierarchy.png"/>
 					<file title="split.png"/>
 					<file title="start.png"/>
 					<file title="stop.png"/>
@@ -211,6 +226,7 @@
 				<file title="01_dashboard.png"/>
 				<file title="100_rights_export.png"/>
 				<file title="105_person_relationship.png"/>
+				<file title="105a_target_party.png"/>
 				<file title="10_map_viewer.png"/>
 				<file title="10a_map_layers_tab.PNG"/>
 				<file title="10b_map_find_tab.png"/>
@@ -219,13 +235,21 @@
 				<file title="10e_map_print_dialog.png"/>
 				<file title="10f_map_printout.png"/>
 				<file title="10g_kml_export.png"/>
+				<file title="10i_measure_tool.png"/>
 				<file title="17_application_search.png"/>
 				<file title="18_application_details.png"/>
 				<file title="20_property_search.png"/>
 				<file title="21_property_details.png"/>
 				<file title="21a_property_details_rrr_tab.png"/>
+				<file title="21b_simple_rrr.png"/>
+				<file title="21c_rightholder_rrr.png"/>
+				<file title="21d_ownership_rrr.png"/>
+				<file title="21e_ownership_share.png"/>
+				<file title="21f_lease_rrr.png"/>
+				<file title="21g_mortgage_rrr.png"/>
 				<file title="22_document_search.png"/>
 				<file title="22a_power_of_attorney_search.png"/>
+				<file title="22b_document_details.png"/>
 				<file title="23_cadastre_change.png"/>
 				<file title="23a_survey_points.png"/>
 				<file title="23b_linked_boundary_points.png"/>
@@ -244,7 +268,11 @@
 				<file title="27_user_profile.png"/>
 				<file title="28_document_registration.png"/>
 				<file title="28a_poa_details.png"/>
+				<file title="29_languages.png"/>
 				<file title="30_password_expired_msg.png"/>
+				<file title="31_unassigned_apps.png"/>
+				<file title="31a_assignment_dialog.png"/>
+				<file title="36_security dialog.png"/>
 				<file title="36a_application_fees.png"/>
 				<file title="36b_verify_property.png"/>
 				<file title="36c_map_points.png"/>
@@ -261,13 +289,21 @@
 				<file title="52_application_actions.png"/>
 				<file title="54_add_image_dialog.png"/>
 				<file title="56_survey_data_file.png"/>
+				<file title="60_import_docs_tab.png"/>
+				<file title="60a_imported_gps_coords.png"/>
 				<file title="70_java_control_panel_advanced_tab.png"/>
 				<file title="70a_java_console.png"/>
+				<file title="89_prepare_certificates_dialog.png"/>
 				<file title="90_appx_pathfinder_export.png"/>
 				<file title="90a_appx_coordsys_export.png"/>
 				<file title="90b_appx_template_name.png"/>
 				<file title="90c_appx_template_editor.png"/>
 				<file title="90d_appx_export_setup.png"/>
+				<file title="95_gender.png"/>
+				<file title="95_search_help.png"/>
+				<file title="96_java_control_panel_general.png"/>
+				<file title="96a_java_cache_viewer.png"/>
+				<file title="96b_java_cache_viewer_resources.png"/>
 			</directory>
 			<directory title="introduction">
 				<file title="about.html"/>
@@ -280,6 +316,8 @@
 				<file title="release_notes_overview.html"/>
 			</directory>
 			<directory title="screens">
+				<file title="1_blk_importsourcepanel.html"/>
+				<file title="1_blk_importspatialpanel.html"/>
 				<file title="application_details.html"/>
 				<file title="application_search.html"/>
 				<file title="change_cadastre.html"/>
@@ -290,7 +328,9 @@
 				<file title="change_cadastre_survey_points.html"/>
 				<file title="change_cadastre_target_parcels.html"/>
 				<file title="dashboard.html"/>
+				<file title="dispute_search.html"/>
 				<file title="document_details.html"/>
+				<file title="document_registration.html"/>
 				<file title="document_search.html"/>
 				<file title="document_search_poa.html"/>
 				<file title="information_tool.html"/>
@@ -307,6 +347,7 @@
 				<file title="ownership_rrr.html"/>
 				<file title="party_details.html"/>
 				<file title="party_search.html"/>
+				<file title="person_relationship.html"/>
 				<file title="property_details.html"/>
 				<file title="property_details_rrr.html"/>
 				<file title="property_search.html"/>
